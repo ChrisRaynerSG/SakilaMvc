@@ -207,4 +207,12 @@ public class Film {
         this.inventories = inventories;
     }
 
+    @Override
+    public String toString() {
+        return "Film{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", rating='" + rating + '\'' +
+                '}';
+    }
 }
